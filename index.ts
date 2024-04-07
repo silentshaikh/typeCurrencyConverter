@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from 'inquirer';
 interface Currncey{
     USD:number,
@@ -29,5 +30,5 @@ if(!amount){
 }else{
 let baseAmount = amount/ourCurrency[fromCurrency];
 let finalAmount = baseAmount*ourCurrency[toCurrency];
-console.log(finalAmount);
+console.log(`The ${amount} ${fromCurrency} is equal to ${finalAmount.toFixed(2)} ${toCurrency}.`);
 }
