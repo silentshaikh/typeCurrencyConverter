@@ -1,6 +1,6 @@
 {
   "name": "typecurrencyconverter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Currency Converter using typescript",
   "main": "index.js",
   "type": "module",

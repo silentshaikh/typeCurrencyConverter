@@ -28,7 +28,7 @@ let amount = currencyConvert.amount;
 if(!amount){
     console.log('Please Enter the Amount');
 }else{
-let baseAmount = amount/ourCurrency[fromCurrency];
-let finalAmount = baseAmount*ourCurrency[toCurrency];
+let baseAmount:number = amount/ourCurrency[fromCurrency];
+let finalAmount:number = baseAmount*ourCurrency[toCurrency];
 console.log(`The ${amount} ${fromCurrency} is equal to ${finalAmount.toFixed(2)} ${toCurrency}.`);
 }
